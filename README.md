@@ -34,11 +34,17 @@
 
 ## 主要技術
 
-*   **フロントエンド言語**: HTML5, CSS3, TypeScript
-*   **ビルドツール**: Vite (Vanilla-TS テンプレート)
-*   **地図ライブラリ**: Leaflet.js
-*   **軌道計算ライブラリ**: satellite.js (SGP4/SDP4 軌道伝搬)
-*   **利用データ / API**:
+*   **フロントエンド言語**
+    *   HTML5
+    *   CSS3
+    *   TypeScript
+*   **ビルドツール**
+    *   Vite (Vanilla-TS テンプレート)
+*   **地図ライブラリ**
+    *   Leaflet.js
+*   **軌道計算ライブラリ**
+    *   satellite.js (SGP4/SDP4 軌道伝搬)
+*   **利用データ / API**
     *   [CelesTrak](https://celestrak.org/) (TLEデータ取得元)
     *   [OpenStreetMap](https://www.openstreetmap.org/) (マップタイル取得元)
 
