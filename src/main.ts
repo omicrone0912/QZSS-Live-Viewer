@@ -41,7 +41,7 @@ const initMap = () => {
   return map;
 };
 
-document.addEventListener('DOMContentLoaded', () => {
+const initializeApp = () => {
   const map = initMap();
   const uiManager = new UIManager();
   let satellitesInfo: SatelliteInfo[] = [];
@@ -147,4 +147,10 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
   startApp();
-});
+};
+
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', initializeApp);
+} else {
+  initializeApp();
+}
