@@ -30,3 +30,36 @@
     *   [OpenStreetMap](https://www.openstreetmap.org/) (マップタイル取得元)
 
 ---
+
+# QZSS Viewer (Michibiki Real-time Tracker)
+
+It is a simple application that visualises the current position(Latitude,Longitude), altitude, and speed of Michibiki, the Japan's Quasi-Zenith Satellite System (QZSS) in real time on a map online web browser.
+
+---
+
+## Specifications and Features
+
+* **Real-time tracking**: The current position of each Michibiki satellite (# 1R, # 2, # 3, # 4 and # 6) is plotted on a map with animation updated every second.
+* **Orbit display**: Plot the satellite's orbit for the past 18 hours on a map to visualise the Michibiki orbit.
+* **Detailed data display**: Check the current "Altitude" and "Speed" of each satellite in real time on the panel.
+* **Offline/API failure fallback**: Even if access to the CelesTrak API is interrupted or the server goes down, the data will automatically be filled in using the built-in data.
+
+---
+
+## Technical specifications
+
+* **Front-end Language**
+　* HTML5
+　* CSS3
+　* TypeScript
+* **Build Tools**
+　* Vite (Vanilla-TS Templates)
+* **Map Libraries**
+　* Leaflet.js
+* **Trajectory Calculation Library**
+　* satellite.js (SGP4/SDP4 orbital Propagation)
+* **Usage Data / API**
+　* [CelesTrak](https://celestrak.org/) (TLE Data Source　API)
+　* [OpenStreetMap](https://www.openstreetmap.org/) (Map Tile Source)
+  
+---
