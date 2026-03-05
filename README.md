@@ -48,18 +48,18 @@ It is a simple application that visualises the current position(Latitude,Longitu
 
 ## Technical specifications
 
-* **Front-end Language**
-　* HTML5
-　* CSS3
-　* TypeScript
-* **Build Tools**
-　* Vite (Vanilla-TS Templates)
-* **Map Libraries**
-　* Leaflet.js
-* **Trajectory Calculation Library**
-　* satellite.js (SGP4/SDP4 orbital Propagation)
-* **Usage Data / API**
-　* [CelesTrak](https://celestrak.org/) (TLE Data Source　API)
-　* [OpenStreetMap](https://www.openstreetmap.org/) (Map Tile Source)
+*   **Front-end Language**
+    *   HTML5
+    *   CSS3
+    *   TypeScript
+*   **Build Tool**
+    *   Vite (Vanilla-TS Templates)
+*   **Map Libraries**
+    *   Leaflet.js
+*   **Orbit Calculation Library**
+    *   satellite.js (SGP4/SDP4 Orbit Propagation)
+*   **Usage Data / API**
+    *   [CelesTrak](https://celestrak.org/) (TLE Data Source API)
+    *   [OpenStreetMap](https://www.openstreetmap.org/) (Map Tile Source)
   
 ---
